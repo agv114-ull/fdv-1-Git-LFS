@@ -141,3 +141,6 @@ Packages/packages-lock.json linguist-generated
 *.skel.bytes            lfs
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# README images: kept out of LFS so GitHub renders them directly
+docs/img/** !filter !diff !merge !text
